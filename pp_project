@@ -351,7 +351,8 @@ def answer(n1):
         calculate = number1 * 1.609344
         result.cget('text')
         result.configure(text=(calculate,result_to))
-        elif result_from == 'Milligram' and result_to == 'Gram':
+        
+    elif result_from == 'Milligram' and result_to == 'Gram':
         calculate = number1 * 0.001
         result.cget('text')
         result.configure(text=(calculate,result_to))
